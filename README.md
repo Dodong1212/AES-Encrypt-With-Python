@@ -8,6 +8,8 @@ Decrypted files are converted from read mode to temporary files and the code can
 
 To make the PYTHON code into a executable file, you can use the pyinstaller.
 
+Check and encrypt changes to the specified folder on the Linux server in real time using inotify.
+
 암호화 코드는 특정 폴더를 암호화하며 사용자가 임의로 확장자를 설정할 수 있습니다.  
 이 코드는 복호화에 사용되는 패스워드와 비교하여 특정 사용자만 디코딩할 수 있는 기능을 추가하는 기능 등 다양한 방식으로 적용할 수 있습니다.
 
@@ -16,5 +18,7 @@ python 코드를 실행 파일로 만든 후 레지스터 값을 변경하여 �
 해독된 파일은 읽기 모드에서 임시 파일로 변환되며 코드를 수정하여 임시 파일이 아닌 일반 파일로 암호 해독할 수 있습니다.
 
 PYTHON 코드를 실행 파일로 만들려면 pyinstaller를 사용하십시오.
+
+inotify을 사용하여 리눅스 서버의 지정된 폴더의 변경 내용을 실시간으로 확인하고 암호화해줍니다.
 
 
